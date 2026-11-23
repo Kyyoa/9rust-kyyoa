@@ -1,1 +1,0 @@
-/home/kyyoa/Projects/9rust-kyyoa/target/release/nine_rust_kyyoa: /home/kyyoa/Projects/9rust-kyyoa/src/config.rs /home/kyyoa/Projects/9rust-kyyoa/src/handlers.rs /home/kyyoa/Projects/9rust-kyyoa/src/main.rs /home/kyyoa/Projects/9rust-kyyoa/src/rtk.rs
