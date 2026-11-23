@@ -1,0 +1,46 @@
+{
+  "port": 30335,
+  "allowed_keys": [
+    "sk-kyyoa-super-secret"
+  ],
+  "token_saver": {
+    "enabled": true,
+    "smart_truncate": true,
+    "max_tool_result_chars": 4000,
+    "compress_whitespace": true,
+    "strip_thinking": false
+  },
+  "providers": {
+    "luna": {
+      "id": "luna",
+      "name": "GPT-6 Luna Cloudflare Tunnel",
+      "base_url": "https://alarm-pour-impacts-numerous.trycloudflare.com/v1",
+      "api_key": "ck_fQ3V3yEgSnMd6iHh3yI4bGce1KUUuBq44C5nA2TjMbw",
+      "models": ["gpt-6-luna"]
+    },
+    "hiyo": {
+      "id": "hiyo",
+      "name": "HIYO GLM-5.3",
+      "base_url": "https://codexfree.xiaotuxp.com/v1",
+      "api_key": "sk-56c5701bf9986b9e023eea907fb4753da2bf4fd2104c98b654e86eb9fa1808ef",
+      "models": ["glm-5.3-flash"],
+      "custom_headers": {
+        "User-Agent": "opencode/latest/2.0.26/cli"
+      }
+    },
+    "zrouter": {
+      "id": "zrouter",
+      "name": "zRouter Dev",
+      "base_url": "https://api.zrouter.dev/v1",
+      "api_key": "zr_8df0fef79a1b44c4c612ede7_mWJ3BQWc_vs7m9gguHP3FAbJburfhtx9Z7-7NEqqDpI",
+      "models": ["hy4-flash:free"]
+    },
+    "folk": {
+      "id": "folk",
+      "name": "FolkRouter 500M",
+      "base_url": "https://folkrouter.web.id/v1",
+      "api_key": "sk-tr-dCwvpLOGmPIaHestKAohqtYItXJwRxYv8t7OEEAkrh8",
+      "models": ["qwen4-max", "router-1"]
+    }
+  }
+}
